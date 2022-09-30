@@ -42,12 +42,21 @@ settings:
           name: Tools
           items:
             - Source
-  plugins: {  }
+  plugins:
+    mentions:
+      enable: true
+      mentions_type: user
+      charcount: 2
+      timeout: 500
+      marker: '@'
+      use_advanced_pattern: false
+      pattern: ''
+      advanced_pattern: ''
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
