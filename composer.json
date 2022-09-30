@@ -16,14 +16,16 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/ckeditor_mentions": "^2.0@RC",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
-        "drupal/core-recommended": "^9.4"
+        "drupal/core-recommended": "^9.4",
+        "drush/drush": "^11.2"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
