@@ -12,14 +12,94 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/mentions",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/mentions/releases/mentions_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/autocomplete",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/autocomplete/releases/autocomplete_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/textmatch",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/textmatch/releases/textmatch_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/textwatcher",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/textwatcher/releases/textwatcher_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/ajax",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/ajax/releases/ajax_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/xml",
+                "version": "4.14.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/xml/releases/xml_4.14.1.zip",
+                    "type": "zip"
+                }
+            }
         }
+
     ],
     "require": {
+        "ckeditor/ajax": "^4.14",
+        "ckeditor/autocomplete": "^4.14",
+        "ckeditor/mentions": "^4.14",
+        "ckeditor/textmatch": "^4.14",
+        "ckeditor/textwatcher": "^4.14",
+        "ckeditor/xml": "^4.14",
         "composer/installers": "^1.9",
         "drupal/ckeditor_mentions": "^2.0@RC",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/flag": "^4.0@beta",
         "drush/drush": "^11.2"
     },
     "conflict": {
@@ -43,6 +123,9 @@
             }
         },
         "installer-paths": {
+            "web/libraries/ckeditor/plugins/{$name}": [
+                "vendor:ckeditor"
+            ],
             "web/core": [
                 "type:drupal-core"
             ],
