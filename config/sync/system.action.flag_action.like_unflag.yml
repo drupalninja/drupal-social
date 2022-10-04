@@ -1,4 +1,4 @@
-uuid: ace47400-ad43-4a98-9499-2c0689e1c5c5
+uuid: 70c91b64-b039-4499-9a34-052e1076062e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.like
   module:
     - flag
+_core:
+  default_config_hash: bng8ykOvfZ8A9hsV6c7OE5d5X8_f9kaSj_BgbJsHO3c
 id: flag_action.like_unflag
 label: 'Like this comment'
 type: comment

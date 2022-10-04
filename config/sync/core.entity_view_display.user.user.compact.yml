@@ -1,4 +1,4 @@
-uuid: f11d60ec-1331-4a9b-ad52-48bc5719fca9
+uuid: 27094c19-32ab-4095-8121-91f3353d1863
 langcode: en
 status: true
 dependencies:
@@ -17,6 +17,11 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
+  flag_following:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   user_picture:
     type: image
     label: hidden

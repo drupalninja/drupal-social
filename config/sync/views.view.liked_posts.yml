@@ -10,6 +10,8 @@ dependencies:
     - comment
     - flag
     - user
+_core:
+  default_config_hash: bkK9mYh_e8JIIkJhtgDcH8b4R4uFABEojZ4QZ71I32c
 id: liked_posts
 label: 'Liked Posts'
 module: views

@@ -4,11 +4,6 @@ status: true
 dependencies:
   module:
     - user
-  enforced:
-    module:
-      - flag_follower
-_core:
-  default_config_hash: ozODLTK7_5RZQRECnFKMJc0qeQL0G8_JZBM5DPIs-yk
 id: following
 label: Following
 bundles: {  }

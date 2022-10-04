@@ -1,4 +1,4 @@
-uuid: 9a2139ce-25fc-43d7-8c64-eda46b9fea4e
+uuid: c5493e64-9600-4c8a-b068-5e914d5426a4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.following
   module:
     - flag
+_core:
+  default_config_hash: w-lJqMZeSbkGpNPj4AbWiQSut2bFiWns3kI3nI9GWzc
 id: flag_action.following_flag
 label: 'Follow this user'
 type: user

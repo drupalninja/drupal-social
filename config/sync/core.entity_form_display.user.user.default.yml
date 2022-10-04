@@ -1,4 +1,4 @@
-uuid: 250a6212-1107-4b0f-9994-3f20a1eed100
+uuid: d8207e96-9507-4a06-b43a-942ff371e8f9
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,15 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - comment
+    - field_layout
     - image
+    - layout_discovery
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
 id: user.user.default
@@ -23,12 +29,6 @@ content:
   contact:
     weight: 5
     region: content
-  field_posts:
-    type: comment_default
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   language:
     weight: 0
     region: content
@@ -43,4 +43,5 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_posts: true

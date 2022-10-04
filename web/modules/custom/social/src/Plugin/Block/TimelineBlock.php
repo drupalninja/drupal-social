@@ -70,6 +70,9 @@ class TimelineBlock extends BlockBase {
 
     $build['view'] = $view->render();
 
+    // Disable caching.
+    $build['#cache']['max-age'] = 0;
+
     return $build;
   }
 

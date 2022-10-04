@@ -7,6 +7,8 @@ dependencies:
     - field.field.comment.posts.comment_body
   module:
     - text
+_core:
+  default_config_hash: 4YfN4nH6-81Ur_yAcm4PihYKiwa9r0MYwULSUZE0Vs8
 id: comment.posts.default
 targetEntityType: comment
 bundle: posts
@@ -18,6 +20,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  flag_like:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
     region: content
   links:
     settings: {  }

@@ -1,4 +1,4 @@
-uuid: 039c8d47-5dd1-4597-a776-54269e502331
+uuid: 1139935a-9d9d-4019-80ee-8afec11aed40
 langcode: en
 status: true
 dependencies:
@@ -20,11 +20,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
-    region: content
-  flag_like:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
     region: content
   links:
     weight: 100

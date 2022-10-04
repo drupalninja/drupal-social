@@ -17,6 +17,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -24,6 +25,8 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   maxlength: 0
   menu_link_content: 0

@@ -7,6 +7,8 @@ dependencies:
   module:
     - comment
     - user
+_core:
+  default_config_hash: G4dhmWfDjd8Rty1n3PtKZJd5SiIqSlV1ZOa-IzB-Y1o
 id: user.user.field_posts
 field_name: field_posts
 entity_type: user

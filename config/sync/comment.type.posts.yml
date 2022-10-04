@@ -2,6 +2,8 @@ uuid: be94b2e5-9444-4b30-a84b-37a4fda61872
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: r5rbMDrqc72hoery5yYtK_drVniNchbEcml1vpbPkI4
 id: posts
 label: Posts
 target_entity_type_id: user

@@ -1,4 +1,4 @@
-uuid: 571657ef-7097-4b30-b8aa-fefcc3c48bd0
+uuid: fb14904f-cff0-4c8a-a8fc-01dc93e967ee
 langcode: en
 status: true
 dependencies:
@@ -42,21 +42,12 @@ settings:
           name: Tools
           items:
             - Source
-  plugins:
-    mentions:
-      enable: true
-      mentions_type: user
-      charcount: 2
-      timeout: 500
-      marker: '@'
-      use_advanced_pattern: false
-      pattern: ''
-      advanced_pattern: ''
+  plugins: {  }
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0
