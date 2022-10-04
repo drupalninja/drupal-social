@@ -21,6 +21,11 @@ class TimelineBlock extends BlockBase {
    */
   public function build() {
     $user = \Drupal::routeMatch()->getParameter('user');
+
+    if (!$user) {
+      return;
+    }
+
     $uid = $user->id();
 
     // Get the current user.
@@ -46,6 +51,22 @@ class TimelineBlock extends BlockBase {
     // Filter the posts by the authors (following and current author).
     $view->setArguments([implode('+', $author_uids)]);
     $view->execute();
+
+    // Add the comment form if we are on the current user's timeline.
+    if ($uid == \Drupal::currentUser()->id()) {
+      $build['comment_form'] = [
+        '#lazy_builder' => [
+          'comment.lazy_builders:renderForm',
+          [
+            'user',
+            $uid,
+            'field_posts',
+            'posts',
+          ],
+        ],
+        '#create_placeholder' => TRUE,
+      ];
+    }
 
     $build['view'] = $view->render();
 

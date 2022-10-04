@@ -10,7 +10,7 @@ dependencies:
 id: posts_timeline
 label: 'Posts Timeline'
 module: views
-description: 'User posts and followed user posts.'
+description: 'Posts by author(s).'
 tag: ''
 base_table: comment_field_data
 base_field: cid
