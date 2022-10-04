@@ -9,5 +9,3 @@ dependencies:
   - ckeditor_mentions:ckeditor_mentions
   - flag:flag
   - maxlength:maxlength
-  - drupal:field_layout
-  - drupal:layout_builder

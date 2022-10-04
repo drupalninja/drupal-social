@@ -1,4 +1,4 @@
-uuid: 851ccbe3-1149-4dcf-8e98-21b2a3c3138b
+uuid: 07b5ea10-4f88-4144-9d51-43cd7ae04332
 langcode: en
 status: true
 dependencies:
@@ -8,54 +8,8 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - field_layout
     - image
-    - layout_builder
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          fe05f878-c8c1-446c-9b27-eb9609a75aa3:
-            uuid: fe05f878-c8c1-446c-9b27-eb9609a75aa3
-            region: content
-            configuration:
-              id: 'field_block:user:user:user_picture'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: image
-                label: hidden
-                settings:
-                  image_link: content
-                  image_style: thumbnail
-                  image_loading:
-                    attribute: lazy
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          c55f662d-e5a1-4747-ad89-4336a5d6b509:
-            uuid: c55f662d-e5a1-4747-ad89-4336a5d6b509
-            region: content
-            configuration:
-              id: 'extra_field_block:user:user:flag_following'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 1
-            additional: {  }
-        third_party_settings: {  }
 _core:
   default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
 id: user.user.compact
