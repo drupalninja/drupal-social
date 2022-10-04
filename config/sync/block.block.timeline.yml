@@ -7,10 +7,12 @@ dependencies:
     - system
   theme:
     - olivero
+_core:
+  default_config_hash: Vvj-qSft2Q2nyHmwBu-nnd2Ov5Eu7uvZgChhfkE8emw
 id: timeline
 theme: olivero
 region: content
-weight: -6
+weight: 99
 provider: null
 plugin: social_timeline
 settings:

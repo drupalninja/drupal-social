@@ -1,12 +1,12 @@
-uuid: 128dab44-6d3a-43d2-926d-27ea08a7582c
+uuid: b77de418-892b-4e17-b41c-073ef68896cb
 langcode: en
 status: true
 dependencies: {  }
 name: mentions_icon
 label: 'CKEditor Mentions Icon'
 effects:
-  b8a05dd6-7b06-46e1-a009-f8ab143a40b1:
-    uuid: b8a05dd6-7b06-46e1-a009-f8ab143a40b1
+  1c54f7a3-86e1-40bb-bc1f-35d3b0aa5b16:
+    uuid: 1c54f7a3-86e1-40bb-bc1f-35d3b0aa5b16
     id: image_scale_and_crop
     weight: 0
     data:
