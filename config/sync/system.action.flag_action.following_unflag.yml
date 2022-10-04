@@ -1,0 +1,17 @@
+uuid: 87b212c8-6d59-498b-9c7a-3de55c358009
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.following
+  module:
+    - flag
+_core:
+  default_config_hash: dHT1k_AWzj6XaMOkdGJxVJ0qsmk6HzFOZIgVyKBQGg4
+id: flag_action.following_unflag
+label: 'Unfollow this user'
+type: user
+plugin: 'flag_action:following_unflag'
+configuration:
+  flag_id: following
+  flag_action: unflag

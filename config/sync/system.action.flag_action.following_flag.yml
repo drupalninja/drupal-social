@@ -1,0 +1,17 @@
+uuid: 4ee6cb75-72e3-4c1f-a465-166c09fd5270
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.following
+  module:
+    - flag
+_core:
+  default_config_hash: w-lJqMZeSbkGpNPj4AbWiQSut2bFiWns3kI3nI9GWzc
+id: flag_action.following_flag
+label: 'Follow this user'
+type: user
+plugin: 'flag_action:following_flag'
+configuration:
+  flag_id: following
+  flag_action: flag

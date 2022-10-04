@@ -1,0 +1,15 @@
+uuid: 128dab44-6d3a-43d2-926d-27ea08a7582c
+langcode: en
+status: true
+dependencies: {  }
+name: mentions_icon
+label: 'CKEditor Mentions Icon'
+effects:
+  b8a05dd6-7b06-46e1-a009-f8ab143a40b1:
+    uuid: b8a05dd6-7b06-46e1-a009-f8ab143a40b1
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 60
+      height: 60
+      anchor: center-center

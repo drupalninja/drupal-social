@@ -1,0 +1,17 @@
+uuid: 887d8942-7fdd-4c9d-9535-67c5fdaa4592
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.like
+  module:
+    - flag
+_core:
+  default_config_hash: bng8ykOvfZ8A9hsV6c7OE5d5X8_f9kaSj_BgbJsHO3c
+id: flag_action.like_unflag
+label: 'Like this comment'
+type: comment
+plugin: 'flag_action:like_unflag'
+configuration:
+  flag_id: like
+  flag_action: unflag
