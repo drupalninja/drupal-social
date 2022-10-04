@@ -1,4 +1,4 @@
-uuid: 27118e36-fbe9-4b29-b02f-2e5cd4e5821c
+uuid: 988ac052-aced-4286-addb-2e9b67b31d34
 langcode: en
 status: true
 dependencies:
@@ -31,8 +31,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          a8125df0-50a2-4bc5-bb88-372e7d65aef0:
-            uuid: a8125df0-50a2-4bc5-bb88-372e7d65aef0
+          799faa6c-94be-4912-b3ca-fd0d75b8a4b3:
+            uuid: 799faa6c-94be-4912-b3ca-fd0d75b8a4b3
             region: content
             configuration:
               id: 'field_block:node:article:field_image'
@@ -50,8 +50,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          4197760b-1b10-41fe-9b5a-29581d127c19:
-            uuid: 4197760b-1b10-41fe-9b5a-29581d127c19
+          1bdd930c-6c23-48f3-b98f-4861ddd47920:
+            uuid: 1bdd930c-6c23-48f3-b98f-4861ddd47920
             region: content
             configuration:
               id: 'field_block:node:article:body'
@@ -65,8 +65,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 1
             additional: {  }
-          4c463f35-f0c8-45a3-81c2-f52d6386e902:
-            uuid: 4c463f35-f0c8-45a3-81c2-f52d6386e902
+          997895d1-0a88-4597-92be-4644cb91d089:
+            uuid: 997895d1-0a88-4597-92be-4644cb91d089
             region: content
             configuration:
               id: 'field_block:node:article:field_tags'
@@ -81,8 +81,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
-          53d77207-75de-4e2d-b437-b5b86dec782e:
-            uuid: 53d77207-75de-4e2d-b437-b5b86dec782e
+          901b536c-fe63-4acc-b851-ed9b8d4eda20:
+            uuid: 901b536c-fe63-4acc-b851-ed9b8d4eda20
             region: content
             configuration:
               id: 'extra_field_block:node:article:links'
@@ -91,8 +91,8 @@ third_party_settings:
                 entity: layout_builder.entity
             weight: 3
             additional: {  }
-          89313387-0749-4a8f-9a32-d252ec6a1c1b:
-            uuid: 89313387-0749-4a8f-9a32-d252ec6a1c1b
+          c5ff68f8-4474-43d0-beb8-10a00e9218ca:
+            uuid: c5ff68f8-4474-43d0-beb8-10a00e9218ca
             region: content
             configuration:
               id: 'field_block:node:article:comment'

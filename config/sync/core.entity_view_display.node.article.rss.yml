@@ -1,4 +1,4 @@
-uuid: 43de9ad4-1471-4597-aeee-47179cccbc9f
+uuid: 2cab6d4a-3d4b-498e-b245-a67565e49d14
 langcode: en
 status: true
 dependencies:
@@ -27,8 +27,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          8fbf9fef-2845-4712-b797-717e09847324:
-            uuid: 8fbf9fef-2845-4712-b797-717e09847324
+          2f6c3b98-d066-4690-bf5d-e9a7dff5a8a9:
+            uuid: 2f6c3b98-d066-4690-bf5d-e9a7dff5a8a9
             region: content
             configuration:
               id: 'extra_field_block:node:article:links'

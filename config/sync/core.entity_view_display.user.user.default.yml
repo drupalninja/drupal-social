@@ -1,4 +1,4 @@
-uuid: e15eadb2-fff7-4bdd-9d7c-ab5c8f83350c
+uuid: e6ffb065-3ef3-4c33-bf9c-bd2dbaa2803c
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,6 @@ dependencies:
     - image
     - layout_builder
     - layout_discovery
-    - social
     - user
 third_party_settings:
   field_layout:
@@ -26,8 +25,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          89225424-ab6a-4c13-acb3-691e0f9cf938:
-            uuid: 89225424-ab6a-4c13-acb3-691e0f9cf938
+          afa964b3-03a0-4283-84c3-2cadb407df87:
+            uuid: afa964b3-03a0-4283-84c3-2cadb407df87
             region: content
             configuration:
               id: 'field_block:user:user:user_picture'
@@ -45,8 +44,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          7e5e02d4-97e5-444c-a4cf-fe2d75f52363:
-            uuid: 7e5e02d4-97e5-444c-a4cf-fe2d75f52363
+          4b5f4302-566b-4828-80ee-7c2aa5708b25:
+            uuid: 4b5f4302-566b-4828-80ee-7c2aa5708b25
             region: content
             configuration:
               id: 'extra_field_block:user:user:member_for'
@@ -55,8 +54,8 @@ third_party_settings:
                 entity: layout_builder.entity
             weight: 1
             additional: {  }
-          458aae17-bd7a-4ab8-a850-245a532a3173:
-            uuid: 458aae17-bd7a-4ab8-a850-245a532a3173
+          d581daa8-1364-493a-b21e-516fe9e5dfd2:
+            uuid: d581daa8-1364-493a-b21e-516fe9e5dfd2
             region: content
             configuration:
               id: 'extra_field_block:user:user:flag_following'
@@ -64,17 +63,6 @@ third_party_settings:
               context_mapping:
                 entity: layout_builder.entity
             weight: 2
-            additional: {  }
-          4420965b-2c50-4fd9-8b29-3ba6d79c902d:
-            uuid: 4420965b-2c50-4fd9-8b29-3ba6d79c902d
-            region: content
-            configuration:
-              id: social_timeline
-              label: Timeline
-              label_display: '0'
-              provider: social
-              context_mapping: {  }
-            weight: 3
             additional: {  }
         third_party_settings: {  }
 _core:

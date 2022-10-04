@@ -1,4 +1,4 @@
-uuid: 3a295dfd-9a24-47d5-b594-8f5bae790940
+uuid: bbc4891e-98dd-4547-a6e3-28a8450c24e2
 langcode: en
 status: true
 dependencies:
@@ -23,8 +23,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          8bd3e9d4-d8cf-4ad5-aec3-ed3b4b60a1a9:
-            uuid: 8bd3e9d4-d8cf-4ad5-aec3-ed3b4b60a1a9
+          18e0e77e-1346-4ce9-9834-161c8353f056:
+            uuid: 18e0e77e-1346-4ce9-9834-161c8353f056
             region: content
             configuration:
               id: 'field_block:comment:comment:comment_body'
@@ -38,8 +38,8 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          29b97786-4854-4b46-8102-bbc9f6cfd60e:
-            uuid: 29b97786-4854-4b46-8102-bbc9f6cfd60e
+          8984e9fd-f8ce-40dd-9682-486de9ceb55d:
+            uuid: 8984e9fd-f8ce-40dd-9682-486de9ceb55d
             region: content
             configuration:
               id: 'extra_field_block:comment:comment:links'

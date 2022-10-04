@@ -1,4 +1,4 @@
-uuid: 266d18b2-776a-497a-8f1c-a7f295af192d
+uuid: 98f0e129-3843-41da-9829-1c0d98618406
 langcode: en
 status: true
 dependencies:
@@ -23,8 +23,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          451876d8-0b00-4c97-beea-9c798cf1f9ce:
-            uuid: 451876d8-0b00-4c97-beea-9c798cf1f9ce
+          81cf185f-bb8f-4209-9f8f-1c8afd30fc27:
+            uuid: 81cf185f-bb8f-4209-9f8f-1c8afd30fc27
             region: content
             configuration:
               id: 'field_block:block_content:basic:body'
