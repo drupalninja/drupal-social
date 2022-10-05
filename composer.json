@@ -1,5 +1,5 @@
 {
-    "name": "drupal/social-project",
+    "name": "drupalninja/drupal-social",
     "description": "Project example for drupalninja/social module.",
     "type": "project",
     "license": "GPL-2.0-or-later",
