@@ -1,5 +1,0 @@
-services:
-  social.commands:
-    class: \Drupal\social\Commands\SocialCommands
-    tags:
-      - { name: drush.command }
