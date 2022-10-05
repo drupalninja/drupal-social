@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7102b4d69d860a0d4d54256c595bf81a",
+    "content-hash": "f7086d31a9690d583b1264fcb4d4381f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1919,12 +1919,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalninja/social.git",
-                "reference": "dbacecf36a05e3763c9a2fc81efbceaf98858344"
+                "reference": "d46cf091dc2a01f1dbd7d563cbf181d4bd51ccf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalninja/social/zipball/dbacecf36a05e3763c9a2fc81efbceaf98858344",
-                "reference": "dbacecf36a05e3763c9a2fc81efbceaf98858344",
+                "url": "https://api.github.com/repos/drupalninja/social/zipball/d46cf091dc2a01f1dbd7d563cbf181d4bd51ccf6",
+                "reference": "d46cf091dc2a01f1dbd7d563cbf181d4bd51ccf6",
                 "shasum": ""
             },
             "require": {
@@ -1950,11 +1950,12 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
+            "description": "Twitter style social features for Drupal.",
             "support": {
                 "issues": "https://github.com/drupalninja/social/issues",
                 "source": "https://github.com/drupalninja/social/tree/1.x"
             },
-            "time": "2022-10-05T02:18:45+00:00"
+            "time": "2022-10-05T20:53:03+00:00"
         },
         {
             "name": "drush/drush",
