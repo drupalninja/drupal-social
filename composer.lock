@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a5efac40fcf4b8ea9d7d6c5a2e7747c",
+    "content-hash": "7102b4d69d860a0d4d54256c595bf81a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1912,6 +1912,49 @@
                 "source": "https://git.drupalcode.org/project/maxlength",
                 "issues": "https://www.drupal.org/project/issues/maxlength"
             }
+        },
+        {
+            "name": "drupalninja/social",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupalninja/social.git",
+                "reference": "dbacecf36a05e3763c9a2fc81efbceaf98858344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drupalninja/social/zipball/dbacecf36a05e3763c9a2fc81efbceaf98858344",
+                "reference": "dbacecf36a05e3763c9a2fc81efbceaf98858344",
+                "shasum": ""
+            },
+            "require": {
+                "ckeditor/ajax": "^4.14",
+                "ckeditor/autocomplete": "^4.14",
+                "ckeditor/mentions": "^4.14",
+                "ckeditor/textmatch": "^4.14",
+                "ckeditor/textwatcher": "^4.14",
+                "ckeditor/xml": "^4.14",
+                "drupal/ckeditor_mentions": "^2.0@RC",
+                "drupal/flag": "^4.0@beta",
+                "drupal/maxlength": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^11"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "support": {
+                "issues": "https://github.com/drupalninja/social/issues",
+                "source": "https://github.com/drupalninja/social/tree/1.x"
+            },
+            "time": "2022-10-05T02:18:45+00:00"
         },
         {
             "name": "drush/drush",
@@ -6756,8 +6799,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/ckeditor_mentions": 5,
-        "drupal/flag": 10
+        "drupalninja/social": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
