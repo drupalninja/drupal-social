@@ -1919,12 +1919,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalninja/social.git",
-                "reference": "595d4c6ecb0f4b25967766676b84c8e0f5ccbaad"
+                "reference": "bf61103be7d72c36fe9f976529d28a2a98c24d80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalninja/social/zipball/595d4c6ecb0f4b25967766676b84c8e0f5ccbaad",
-                "reference": "595d4c6ecb0f4b25967766676b84c8e0f5ccbaad",
+                "url": "https://api.github.com/repos/drupalninja/social/zipball/bf61103be7d72c36fe9f976529d28a2a98c24d80",
+                "reference": "bf61103be7d72c36fe9f976529d28a2a98c24d80",
                 "shasum": ""
             },
             "require": {
@@ -1955,7 +1955,7 @@
                 "issues": "https://github.com/drupalninja/social/issues",
                 "source": "https://github.com/drupalninja/social/tree/1.x"
             },
-            "time": "2022-10-07T02:03:58+00:00"
+            "time": "2022-10-07T02:41:59+00:00"
         },
         {
             "name": "drush/drush",
